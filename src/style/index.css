@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Roboto Regular */
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../public/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: 500; /* Black weight is typically 900 */
+  font-style: normal;
+}

@@ -1,0 +1,90 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.speech {
+    margin-top: 13px;
+    width: 200px;
+    font-size: 10px;
+    color: #5b5858;
+    margin-bottom: 100px;
+}
+
+.shop {
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shop-span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: block;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.channel-picture {
+    /*background-color: grey;*/
+}
+
+.video-info-grid {
+ display: grid;
+ grid-template-columns: 50px 1fr;
+
+}
+
+.video-info {
+    /*background-color: grey;*/
+}
+
+.profile-picture {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.video-title {
+    margin-top: 0
+}
+
+.thumbnail-row {
+    margin-bottom: 20px;
+}
+
+.video-author {
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+    margin: 10px 10px 4px 0; /* top, right, bottom, left */
+}
+
+.video-stats {
+    margin-top: 0;
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 41px;
+}
