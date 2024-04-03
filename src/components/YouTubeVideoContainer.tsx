@@ -1,6 +1,6 @@
 import YouTubeVideo from "./YouTubeVideo";
 import React from "react";
-import '../style/MainView.css';
+import '../style/youtube/Video.css';
 import {
     TALKING_TECH_PROFILE,
     TALKING_TECH_PICTURE,

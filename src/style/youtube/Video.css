@@ -1,9 +1,3 @@
-p {
-    font-family: Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .speech {
     margin-top: 13px;
     width: 200px;
@@ -27,10 +21,6 @@ p {
 .shop-span:hover {
     text-decoration: underline;
     cursor: pointer;
-}
-
-.search-bar {
-    display: block;
 }
 
 .thumbnail {
@@ -85,6 +75,7 @@ p {
 .video-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 0 10px 0 10px;
     column-gap: 15px;
     row-gap: 41px;
 }

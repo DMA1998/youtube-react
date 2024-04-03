@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* Roboto Regular */
 @font-face {
   font-family: 'Roboto';

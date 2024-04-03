@@ -1,5 +1,5 @@
 import {useEffect} from "react";
-import '../style/Grid.css'
+import '../style/youtube/Grid.css'
 
 export const Grid: React.FC = () => {
 
