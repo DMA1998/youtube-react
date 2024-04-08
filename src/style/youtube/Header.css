@@ -1,26 +1,115 @@
 .search-bar {
-    display: block;
+    flex: 1;
+    height: 37px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b7b7b7;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgb(0, 0, 0, 0.05);
+    width: 0;
+}
+
+.search-bar::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 15px;
 }
 
 .header {
     height: 55px;
     display: flex;
     justify-content: space-between;
-}
 
-.left-section {
-    background-color: lightblue;
-    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+
+    background-color: white;
 }
 
 .middle-section {
-    background-color: lightpink;
     flex: 1;
     margin: 0 35px 0 70px;
     max-width: 500px;
+    align-items: center;
+    display: flex;
 }
 
 .right-section {
-    background-color: lightblue;
-    width: 200px;
+    width: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hamburger-menu {
+    height: 25px;
+    margin: 0 25px 0 25px;
+}
+
+.youtube-logo {
+    height: 20px;
+}
+
+.search-button {
+    height: 41px;
+    width: 61px;
+    background-color: rgb(241, 241, 241);
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    margin-left: -2px;
+}
+
+.voice-search-button {
+    margin-left: 10px;
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: #f6f4f4;
+}
+
+.search-icon {
+    height: 25px;
+    margin-top: 4px;
+}
+
+
+.upload-icon {
+
+}
+
+.youtube-apps-icon {
+
+}
+
+.notifications-icon {
+
+}
+
+.current-user-picture {
+    height: 32px;
+    border-radius: 50%;
+}
+
+.youtube-apps-icon,
+.notifications-icon,
+.upload-icon {
+    height: 24px;
 }

@@ -26,7 +26,7 @@ export const ANYTHING_YOU_CAN_FIT_PROFILE = "https://supersimple.dev/public/img/
 /*MiDLE HEADER BAR*/
 export const HAMBURGER_MENU = 'https://supersimple.dev/public/img/exercises/youtube/icons/hamburger-menu.svg';
 export const YOUTUBE_LOGO = 'https://supersimple.dev/public/img/exercises/youtube/icons/youtube-logo.svg';
-export const LOOP = 'https://supersimple.dev/public/img/exercises/youtube/icons/search.svg';
+export const SEARCH = 'https://supersimple.dev/public/img/exercises/youtube/icons/search.svg';
 export const MICROPHONE = 'https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg';
 
 

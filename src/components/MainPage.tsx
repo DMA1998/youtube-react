@@ -12,7 +12,9 @@ import {
     KADANES_ALGORITHM_PICTURE,
     KADANES_ALGORITHM_PROFILE,
     ANYTHING_YOU_CAN_FIT_PICTURE,
-    ANYTHING_YOU_CAN_FIT_PROFILE
+    ANYTHING_YOU_CAN_FIT_PROFILE,
+    HAMBURGER_MENU,
+    YOUTUBE_LOGO, SEARCH, MICROPHONE, UPLOAD, APPS, NOTIFICATIONS, TEMPORARY_PROFILE
 } from '../images/PictureConstants'
 
 const MainPage: React.FC = () => {
@@ -25,13 +27,23 @@ const MainPage: React.FC = () => {
         <body>
         <div className="header">
             <div className="left-section">
-                Left section
+                <img className="hamburger-menu" src={HAMBURGER_MENU} alt="HHM"/>
+                <img className="youtube-logo" src={YOUTUBE_LOGO} alt=""/>
             </div>
             <div className="middle-section">
                 <input className="search-bar" type="text" placeholder="Search"/>
+                <button className="search-button">
+                    <img className="search-icon" src={SEARCH} alt=""/>
+                </button>
+                <button className="voice-search-button">
+                    <img src={MICROPHONE} alt=""/>
+                </button>
             </div>
             <div className="right-section">
-                Right section
+                <img className="upload-icon" src={UPLOAD} alt="upload"/>
+                <img className="youtube-apps-icon" src={APPS} alt="apps"/>
+                <img className="notifications-icon" src={NOTIFICATIONS} alt="notifictaions"/>
+                <img className="current-user-picture" src={TEMPORARY_PROFILE} alt="profile"/>
             </div>
         </div>
         <div className="video-grid">
